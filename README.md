@@ -1,4 +1,4 @@
-# Line_Login_Example
+# LINE Login Example
 <img src='http://arock.blob.core.windows.net/blogdata201702/14-215656-e2740e6c-82bb-489b-9792-a271086e7e4e.png' />
 <div class="panel-body">
 背景知識:<br/>
@@ -31,8 +31,7 @@
 </div>
 
 
-相關資源 
-===
+# 相關資源 
 <br/>LineBotSDK：https://www.nuget.org/packages/LineBotSDK
 <br/>相關課程：http://www.studyhost.tw/NewCourses/LineBot
 <br/>線上課程：https://www.udemy.com/line-bot/
