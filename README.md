@@ -4,6 +4,7 @@
 背景知識:<br/>
   請先參考底下這篇文章，建立您的LINE Login服務channel，取得Client_id, Client_secret<br/>
   https://studyhost.blogspot.com/2017/12/clinebot17-line-login-v21.html<br/>
+  http://studyhost.blogspot.com/2017/01/oauthsso.html<br/>
   接著即可下載clone此範例使用<br/>
   <br/>
 說明: 
@@ -11,7 +12,7 @@
 <li>使用此範例Source code時，請先更換程式碼中《你的Client_id》<br/> (位於default.aspx) </li>
 <li>並且調整你申請好的LineLogin設定的callback url <br/> (測試階段應為http://localhost:17615/Callback.aspx) </li>
 <li>同時Callback.aspx.cs中的client_id與client_secret必須改為你申請LINE Login後取得的正確資料</li>
-<li>相關說明請參考 : http://studyhost.blogspot.tw/2016/12/linebot7-line-loginoauth-sso.html </li>
+<li>相關說明請參考 : http://studyhost.blogspot.com/2017/12/clinebot17-line-login-v21.html </li>
 </ol>
 使用: 
 <ol>
@@ -28,3 +29,12 @@
 <li>(意即，未來你的用戶可以直接透過LINE登入，不一定只能使用在你系統中的帳密，類似Google的登入一樣)</li>
 </ol>
 </div>
+
+
+相關資源 
+===
+<br/>LineBotSDK：https://www.nuget.org/packages/LineBotSDK
+<br/>相關課程：http://www.studyhost.tw/NewCourses/LineBot
+<br/>線上課程：https://www.udemy.com/line-bot/
+<br/>更多內容，請參考電子書：https://www.pubu.com.tw/ebook/103305
+<br/>LINE Bot實體書籍：https://www.tenlong.com.tw/products/9789865020354
