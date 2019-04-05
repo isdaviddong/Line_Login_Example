@@ -18,10 +18,11 @@
     <script>
         //建立OAuth 身分驗證頁面並導入
         function Auth() {
-            var URL = 'https://access.line.me/dialog/oauth/weblogin?';
+            var URL = 'https://access.line.me/oauth2/v2.1/authorize?';
             URL += 'response_type=code';
             URL += '&client_id=00000000000';   //TODO:這邊要換成你的client_id
             URL += '&redirect_uri=http://localhost:17615/Callback.aspx';   //TODO:要將此redirect url 填回你的 LineLogin後台設定
+            URL += '&scope=openid%20profile';
             URL += '&state=abcde';
             window.location.href = URL;
         }
@@ -44,17 +45,17 @@
                 <div class="col-lg-6">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            範例 : Line Login Example
+                            範例 :  LINE Login  Example
                         </div>
                         <div class="panel-body">
-                            說明: 
+                            使用說明: 
                         <ol>
                             <li>使用此範例Source code，請先更換程式碼中《你的Client_id》<br/> (位於default.aspx) </li>
-                            <li>並且調整你申請好的LineLogin設定的callback url <br/> (測試階段應為http://localhost:17615/Callback.aspx) </li>
-                            <li>同時Callback.aspx.cs中的client_id與client_secret必須改為你申請LineLogin後取得的正確資料</li>
+                            <li>並且調整你申請好的 LINE Login 設定的callback url <br/> (測試階段應為http://localhost:17615/Callback.aspx) </li>
+                            <li>同時Callback.aspx.cs中的client_id與client_secret必須改為你申請 LINE Login 後取得的正確資料</li>
                             <li>相關說明請參考 : http://studyhost.blogspot.tw/2016/12/linebot7-line-loginoauth-sso.html </li>
                         </ol>
-                            使用: 
+                            使用步驟: 
                         <ol>
                             <li>請點選《使用Line登入》，將會取得該登入用戶的access_token</li>
                             <li>接著按下《取得用戶資訊》，可透過access_token取得用戶資訊</li>

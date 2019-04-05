@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using isRock.LineLogin;
+using isRock.LineLoginV21;
 
 namespace Line_Login_Example
 {
@@ -22,7 +22,7 @@ namespace Line_Login_Example
             //顯示，測試用
             Response.Write("<br/> code : " + code);
             //從Code取回toke
-            var token = Utility.GetToeknFromCode(code,
+            var token = Utility.GetTokenFromCode(code,
                 "00000000000",  //TODO:請更正為你自己的 client_id
                 "oxoxoxoxoxoxoxoxoxxoxoxoxoxo", //TODO:請更正為你自己的 client_secret
                 "http://localhost:17615/Callback.aspx");

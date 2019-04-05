@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using isRock.LineLogin;
+using isRock.LineLoginV21;
 
 namespace Line_Login_Example
 {
