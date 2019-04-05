@@ -28,16 +28,23 @@ namespace Line_Login_Example
                 "http://localhost:17615/callback.aspx");  //TODO:請檢查此網址必須與你的LINE Login後台Call back URL相同
             //顯示，測試用(正式環境我們不會曝露token)
             Response.Write("<br/> token : " + token.access_token);
-            //利用token取得用戶資料
+            //利用access_token取得用戶資料
             var user = Utility.GetUserProfile(token.access_token);
+            //利用id_token取得Claim資料
+            var JwtSecurityToken = new System.IdentityModel.Tokens.Jwt.JwtSecurityToken(token.id_token);
+            var email = "";
+            //如果有email
+            if (JwtSecurityToken.Claims.ToList().Find(c => c.Type == "email") != null)
+                email = JwtSecurityToken.Claims.First(c => c.Type == "email").Value;
 
             //顯示，測試用
             Response.Write("<br/> user : " + Newtonsoft.Json.JsonConvert.SerializeObject(user));
+            Response.Write("<br/> emal : " + email);
             //Response.End();
 
             //導入首頁，帶入token
             //(注意這是範例，token不該用明碼傳遞，也不該出現在用戶端，你應該自行記錄在資料庫或ServerSite session中)
-            Response.Redirect("default.aspx?token=" + HttpUtility.UrlEncode(token.access_token));
+            Response.Redirect($"default.aspx?token={HttpUtility.UrlEncode(token.access_token)}&email={email}");
         }
     }
 }
