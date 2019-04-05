@@ -14,7 +14,7 @@ namespace Line_Login_Example
         void Application_Start(object sender, EventArgs e)
         {
             // 應用程式啟動時執行的程式碼
-            GlobalConfiguration.Configure(WebApiConfig.Register);
+            //GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
 }

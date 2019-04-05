@@ -23,10 +23,10 @@ namespace Line_Login_Example
             Response.Write("<br/> code : " + code);
             //從Code取回toke
             var token = Utility.GetTokenFromCode(code,
-                "00000000000",  //TODO:請更正為你自己的 client_id
-                "oxoxoxoxoxoxoxoxoxxoxoxoxoxo", //TODO:請更正為你自己的 client_secret
-                "http://localhost:17615/Callback.aspx");
-            //顯示，測試用
+                "請更正為你自己的 client_id",  //TODO:請更正為你自己的 client_id
+                "請更正為你自己的 client_secret", //TODO:請更正為你自己的 client_secret
+                "http://localhost:17615/callback.aspx");  //TODO:請檢查此網址必須與你的LINE Login後台Call back URL相同
+            //顯示，測試用(正式環境我們不會曝露token)
             Response.Write("<br/> token : " + token.access_token);
             //利用token取得用戶資料
             var user = Utility.GetUserProfile(token.access_token);

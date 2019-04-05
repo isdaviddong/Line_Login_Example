@@ -10,7 +10,7 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/toastr.min.css" rel="stylesheet" />
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/toastr.min.js"></script>
     <script src="Scripts/vue.min.js"></script>
@@ -20,8 +20,8 @@
         function Auth() {
             var URL = 'https://access.line.me/oauth2/v2.1/authorize?';
             URL += 'response_type=code';
-            URL += '&client_id=00000000000';   //TODO:這邊要換成你的client_id
-            URL += '&redirect_uri=http://localhost:17615/Callback.aspx';   //TODO:要將此redirect url 填回你的 LineLogin後台設定
+            URL += '&client_id=這邊要換成你的client_id';   //TODO:這邊要換成你的client_id
+            URL += '&redirect_uri=http://localhost:17615/callback.aspx';   //TODO:要將此redirect url 填回你的 LineLogin後台設定
             URL += '&scope=openid%20profile';
             URL += '&state=abcde';
             window.location.href = URL;
@@ -59,6 +59,11 @@
                         <ol>
                             <li>請點選《使用Line登入》，將會取得該登入用戶的access_token</li>
                             <li>接著按下《取得用戶資訊》，可透過access_token取得用戶資訊</li>
+                        </ol>
+                                     安全性說明: 
+                        <ol>
+                            <li>token會由放在queryString是為了便於您測試和debug, 正式環境不該如此。</li>
+                            <li>會有嚴重的安全性顧慮</li>
                         </ol>
                         </div>
                     </div>
