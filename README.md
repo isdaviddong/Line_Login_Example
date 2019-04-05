@@ -1,16 +1,21 @@
 # Line_Login_Example
 <img src='http://arock.blob.core.windows.net/blogdata201702/14-215656-e2740e6c-82bb-489b-9792-a271086e7e4e.png' />
 <div class="panel-body">
-»¡©ú: 
+èƒŒæ™¯çŸ¥è­˜:
+  è«‹å…ˆåƒè€ƒåº•ä¸‹é€™ç¯‡æ–‡ç« ï¼Œå»ºç«‹æ‚¨çš„LINE Loginæœå‹™channelï¼Œå–å¾—Client_id, Client_secret
+  https://studyhost.blogspot.com/2017/12/clinebot17-line-login-v21.html
+  æ¥è‘—å³å¯ä¸‹è¼‰cloneæ­¤ç¯„ä¾‹ä½¿ç”¨
+  
+èªªæ˜: 
 <ol>
-<li>¨Ï¥Î¦¹½d¨ÒSource code¡A½Ğ¥ı§ó´«µ{¦¡½X¤¤¡m§AªºClient_id¡n<br/> (¦ì©ódefault.aspx) </li>
-<li>¨Ã¥B½Õ¾ã§A¥Ó½Ğ¦nªºLineLogin³]©wªºcallback url <br/> (´ú¸Õ¶¥¬qÀ³¬°http://localhost:17615/Callback.aspx) </li>
-<li>¦P®ÉCallback.aspx.cs¤¤ªºclient_id»Pclient_secret¥²¶·§ï¬°§A¥Ó½ĞLineLogin«á¨ú±oªº¥¿½T¸ê®Æ</li>
-<li>¬ÛÃö»¡©ú½Ğ°Ñ¦Ò : http://studyhost.blogspot.tw/2016/12/linebot7-line-loginoauth-sso.html </li>
+<li>ä½¿ç”¨æ­¤ç¯„ä¾‹Source codeæ™‚ï¼Œè«‹å…ˆæ›´æ›ç¨‹å¼ç¢¼ä¸­ã€Šä½ çš„Client_idã€‹<br/> (ä½æ–¼default.aspx) </li>
+<li>ä¸¦ä¸”èª¿æ•´ä½ ç”³è«‹å¥½çš„LineLoginè¨­å®šçš„callback url <br/> (æ¸¬è©¦éšæ®µæ‡‰ç‚ºhttp://localhost:17615/Callback.aspx) </li>
+<li>åŒæ™‚Callback.aspx.csä¸­çš„client_idèˆ‡client_secretå¿…é ˆæ”¹ç‚ºä½ ç”³è«‹LINE Loginå¾Œå–å¾—çš„æ­£ç¢ºè³‡æ–™</li>
+<li>ç›¸é—œèªªæ˜è«‹åƒè€ƒ : http://studyhost.blogspot.tw/2016/12/linebot7-line-loginoauth-sso.html </li>
 </ol>
-¨Ï¥Î: 
+ä½¿ç”¨: 
 <ol>
-<li>½ĞÂI¿ï¡m¨Ï¥ÎLineµn¤J¡n¡A±N·|¨ú±o¸Óµn¤J¥Î¤áªºaccess_token</li>
-<li>±µµÛ«ö¤U¡m¨ú±o¥Î¤á¸ê°T¡n¡A¥i³z¹Laccess_token¨ú±o¥Î¤á¸ê°T</li>
+<li>è«‹é»é¸ã€Šä½¿ç”¨Lineç™»å…¥ã€‹ï¼Œå°‡æœƒå–å¾—è©²ç™»å…¥ç”¨æˆ¶çš„access_token</li>
+<li>æ¥è‘—æŒ‰ä¸‹ã€Šå–å¾—ç”¨æˆ¶è³‡è¨Šã€‹ï¼Œå¯é€éaccess_tokenå–å¾—ç”¨æˆ¶è³‡è¨Šï¼Œå³è¡¨ç¤ºä½ å–å¾—æ­£ç¢ºçš„Tokenï¼Œå®ŒæˆSSOã€‚</li>
 </ol>
 </div>
