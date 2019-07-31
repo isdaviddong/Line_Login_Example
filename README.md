@@ -1,3 +1,8 @@
+```
+如果你在找 .net core 版本，請參考:
+https://github.com/isdaviddong/LineLogin-dotnetcoreExample
+```
+
 # LINE Login Example
 <img src='http://arock.blob.core.windows.net/blogdata201702/14-215656-e2740e6c-82bb-489b-9792-a271086e7e4e.png' />
 <div class="panel-body">
