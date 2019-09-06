@@ -2,20 +2,23 @@
 如果你在找 .net core 版本，請參考:
 https://github.com/isdaviddong/LineLogin-dotnetcoreExample
 ```
-
-# LINE Login MVC Example
-MVC版本 位於 Line_Login_Example/Line_Login_MVC/
-
-# LINE Login Example
-WebForm版本 位於 Line_Login_Example/Line_Login_Example/
-<img src='http://arock.blob.core.windows.net/blogdata201702/14-215656-e2740e6c-82bb-489b-9792-a271086e7e4e.png' />
-<div class="panel-body">
 背景知識:<br/>
   請先參考底下這篇文章，建立您的LINE Login服務channel，取得Client_id, Client_secret<br/>
   https://studyhost.blogspot.com/2017/12/clinebot17-line-login-v21.html<br/>
   http://studyhost.blogspot.com/2017/01/oauthsso.html<br/>
   接著即可下載clone此範例使用<br/>
   <br/>
+  
+# LINE Login MVC Example
+MVC版本 位於 Line_Login_Example/Line_Login_MVC/
+
+<img src='https://i.imgur.com/53kQAMa.png' />
+
+# LINE Login Example
+WebForm版本 位於 Line_Login_Example/Line_Login_Example/
+<img src='http://arock.blob.core.windows.net/blogdata201702/14-215656-e2740e6c-82bb-489b-9792-a271086e7e4e.png' />
+<div class="panel-body">
+
 說明: 
 <ol>
 <li>使用此範例Source code時，請先更換程式碼中《你的Client_id》<br/> (位於default.aspx) </li>
