@@ -60,4 +60,4 @@ WebForm版本 位於 Line_Login_Example/Line_Login_Example/
 <br/>相關課程：http://www.studyhost.tw/NewCourses/LineBot
 <br/>線上課程：https://www.udemy.com/line-bot/
 <br/>更多內容，請參考電子書：https://www.pubu.com.tw/ebook/103305
-<br/>LINE Bot實體書籍：https://www.tenlong.com.tw/products/9789865020354
+<br/>LINE Bot實體書籍：https://www.tenlong.com.tw/products/9789865022662?list_name=b-r7-zh_tw
